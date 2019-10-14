@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.wrapper{
+    position: relative;
+    width: 400px;
+    height: 600px;
+    margin: 150px auto;
+    border: 1px solid#000080;
+    overflow: hidden;
+}
+.wrapper #go{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    z-index: 99;
+}
+.wrapper #go a{
+    font-size: 50px;
+    font-weight: 600;
+    color: #000080;
+}
+.wrapper #main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -150px;
+}
+.row{
+    width: 100%;
+    height: 150px;
+
+}
+.row div{
+    float: left;
+    width: 99px;
+    border-left: 1px solid #000000;
+    height: 149px;
+    border-bottom: 1px solid #000000;
+}
